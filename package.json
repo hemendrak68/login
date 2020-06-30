@@ -1,0 +1,36 @@
+{
+  "name": "hemendrakumar-node.js-developer",
+  "version": "1.0.0",
+  "description": "1. Verify you can use git from your computer.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Asergis-HR/HemendraKumar-Node.js-Developer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Asergis-HR/HemendraKumar-Node.js-Developer/issues"
+  },
+  "homepage": "https://gitlab.com/Asergis-HR/HemendraKumar-Node.js-Developer#README",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.19.0",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "^4.17.1",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "^1.17.1",
+    "express-validator": "*",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.20",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
